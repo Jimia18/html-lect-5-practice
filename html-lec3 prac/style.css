@@ -1,0 +1,52 @@
+body {background-color: hsl(180, 16%, 80%);}
+h1 {color: beige;}
+p {color: rgb(14, 0, 139);}
+#data-table {
+    margin: 20px auto;
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: 
+    collapse;
+
+    margin-top: 10px
+}
+th{
+    background-color: rgb(129, 219, 235);
+    color: rgb(70, 118, 180);
+    padding: 15px;
+    border: 2px solid;
+    text-transform: uppercase;
+}
+td{
+    padding: 15px;
+    border: 2px solid #ddd;
+}
+tbody tr :nth-child(odd) {
+    background-color: #8acaca;
+}
+tbody tr :hover{
+    background-color: rgb(167, 33, 185);
+    cursor: pointer;
+}
+section{
+    margin: 35px;
+}
+
+h2 {
+    font-size: 1rem;
+    color: rgb(65, 5, 230);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#testimonials {
+font-size: small;
+color: darkolivegreen;
+text-align: start;
+}
+.service-item {
+    font-style: italic;
+    color: black;
+}
